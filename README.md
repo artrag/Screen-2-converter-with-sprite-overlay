@@ -9,10 +9,9 @@ Convert any image to screen 2 (msx 1) and try to fix color spill by placing 16x1
  - larger than 256x192 will be cropped to that size
  - smaller than 256x192 will be padded by zeros
   
- Images not in the TMS9918 color palette will be 
- converted without dithering closest color available 
+ Images not will be converted pixel by pixel without dithering to the closest color available in the TMS9918 palette
 
- the program returns the following .bin files with msx basic header
+ The program returns the following .bin files with msx basic header
 
  testcol.bin	-> screen 2 colors
  
