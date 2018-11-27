@@ -1,5 +1,5 @@
 # Screen-2-converter-with-sprite-overlay
-Convert any image to screen 2 and try to fix color spill by placing 16x16 sprites on the error areas
+Convert any image to screen 2 (msx 1) and try to fix color spill by placing 16x16 sprites on the error areas
 
 
  call as  scr2cnv('namefile') from matlab
@@ -18,6 +18,9 @@ Convert any image to screen 2 and try to fix color spill by placing 16x16 sprite
  testpat.bin	-> screen 2 patterns
  testspt.bin	-> definitions of 32 sprites 16x16
  testsat.bin	-> attributes of 32 sprites
+
+If you want to use these files with Colecovision, TI99/4A or any another machine 
+based on the TMS9918,  remove the first 7 bytes from the header to get raw data
 
  In msx basic use this code to see the result 
 
