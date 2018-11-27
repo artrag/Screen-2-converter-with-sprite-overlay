@@ -4,12 +4,14 @@ Convert any image to screen 2 (msx 1) and try to fix color spill by placing 16x1
 
  call as  scr2cnv('namefile') from matlab
 
- Any image format is supported, .bmp, .png and .jpg files 
- will be accepted. Images
+ Any image format should be supported, .bmp, .png and .jpg files 
+ are accepted. 
+ 
+ Images
  - larger than 256x192 will be cropped to that size
  - smaller than 256x192 will be padded by zeros
   
- Images not will be converted pixel by pixel without dithering to the closest color available in the TMS9918 palette
+ Colors will be converted without dithering to the closest color available in the TMS9918 palette
 
  The program returns the following .bin files with msx basic header
 
