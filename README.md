@@ -13,13 +13,10 @@ Convert any image to screen 2 (msx 1) and try to fix color spill by placing 16x1
 
  The program returns the following .bin files with msx basic header
 
- testcol.bin	-> screen 2 colors
- 
- testpat.bin	-> screen 2 patterns
- 
- testspt.bin	-> definitions of 32 sprites 16x16
- 
- testsat.bin	-> attributes of 32 sprites
+- testcol.bin	-> screen 2 colors
+- testpat.bin	-> screen 2 patterns
+- testspt.bin	-> definitions of 32 sprites 16x16
+- testsat.bin	-> attributes of 32 sprites
 
 If you want to use these files with Colecovision, TI99/4A or any another machine 
 based on the TMS9918,  remove the first 7 bytes from the header to get raw data
